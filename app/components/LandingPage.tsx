@@ -8,7 +8,8 @@ const LandingPage = () => {
                 <h1 className='text-8xl'>Jacob Shaul</h1>
                 <h2 className='max-w-xl text-2xl'>, ipsum dolor sit amet consectetur adipisicing elit. Nulla alias error consequuntur itaque laboriosam recusandae doloribus quam excepturi quo nostrum.</h2>
             </div>
-            <Image src="/facepicture.jpg" className='w-72 h-full rounded-3xl' width={500} height={500}  alt='Different picture'/>
+            <Image src="/facepicture.jpg" className='w-72 h-full rounded-3xl' width={500} height={500} alt='Different picture'/>
+
 
         </div>
 

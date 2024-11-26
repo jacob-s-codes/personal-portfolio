@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
+import { Orbitron } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+
+
+
+const orbitron_init = Orbitron({
+  subsets: ["latin"],
+  weight: ['400'],
+  variable: "--font-orbitron",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,9 +33,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="sunset">
+    <html lang="en" className={orbitron_init.variable}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
         {children}
       </body>

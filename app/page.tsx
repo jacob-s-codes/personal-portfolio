@@ -24,8 +24,7 @@ export default function Home() {
       </div>
       
 
-      <h1 className='roboto text-4xl'>Roboto?</h1>
-      <h1 className='text-4xl'>None roboto</h1>
+      
       
       
 

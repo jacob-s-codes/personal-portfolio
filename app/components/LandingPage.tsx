@@ -36,7 +36,7 @@ const LandingPage = () => {
                     </div>
 
                 </div>
-                <Image src="/facepicture.jpg" className='w-96 h-full rounded-3xl mr-28' width={500} height={500} alt='Different picture' />
+                <Image src="/personal-portfolio/facepicture.jpg" className='w-96 h-full rounded-3xl mr-28' width={500} height={500} alt='Different picture' />
             </div>
 
             

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import faceImage from '../assets/facepic.webp'
 
 
 const LandingPage = () => {
@@ -36,7 +37,7 @@ const LandingPage = () => {
                     </div>
 
                 </div>
-                <Image src="/public/facepic.webp" className='w-96 h-full rounded-3xl mr-28' width={500} height={500} alt='Different picture' />
+                <Image src={faceImage} className='w-96 h-full rounded-3xl mr-28' width={500} height={500} alt='Different text' />
             </div>
 
             

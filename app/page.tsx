@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import LandingPage from './components/LandingPage';
 import { SpotlightBorder } from './components/SpotlightBorder';
 import TechStack from './components/TechStack';
+import MyProjects from './components/MyProjects';
 
 
 
@@ -17,11 +18,7 @@ export default function Home() {
       
       <LandingPage/>
       <TechStack/>
-      <div className='flex flex-row w-full items-center justify-center mt-96 z-0'>
-        <SpotlightBorder className="h-[600px] w-96 flex flex-row items-center justify-center" spotlightColor="#0EA5E9">
-          <h1>Text</h1>
-        </SpotlightBorder>
-      </div>
+      <MyProjects/>
       
 
       

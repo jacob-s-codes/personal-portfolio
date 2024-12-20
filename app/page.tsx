@@ -12,7 +12,7 @@ export default function Home() {
 
   
   return (
-    <main className='text-white z-10 orbitron bg-blue-950'>
+    <main className='text-white z-10 orbitron bg-blue-950 w-full'>
 
       <NavBar/>
       

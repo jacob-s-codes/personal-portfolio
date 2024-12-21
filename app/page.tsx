@@ -13,12 +13,15 @@ export default function Home() {
   
   return (
     <main className='text-white z-10 orbitron bg-blue-950 w-full'>
+      <div className='max-w-[1500px] flex flex-col justify-center mx-auto'>
+        <NavBar/>
+        
+        <LandingPage/>
+        <TechStack/>
+        <MyProjects/>
+      </div>
 
-      <NavBar/>
       
-      <LandingPage/>
-      <TechStack/>
-      <MyProjects/>
       
 
       

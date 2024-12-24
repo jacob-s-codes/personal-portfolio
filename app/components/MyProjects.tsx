@@ -16,9 +16,9 @@ const MyProjects = () => {
                     
                     <hr className='mx-8 mt-2 h-1 bg-white border-0'/>
                     <div className='px-8 h-auto'>
-                        <Image src={modetocode} alt="image of mode to code"></Image>
+                        <Image src={modetocode} alt="image of mode to code" className='rounded-lg'></Image>
                     </div>
-                    <div className='px-8'>
+                    <div className='px-8 py-8'>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, repudiandae tenetur necessitatibus esse consequuntur assumenda aspernatur ab, officiis impedit voluptates fuga excepturi, asperiores nemo omnis repellat iste. Nisi, dolor ullam.</p>
                     </div>
                 </SpotlightBorder>

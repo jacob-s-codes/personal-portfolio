@@ -18,6 +18,9 @@ const MyProjects = () => {
                     <div className='px-8 h-auto'>
                         <Image src={modetocode} alt="image of mode to code"></Image>
                     </div>
+                    <div className='px-8'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, repudiandae tenetur necessitatibus esse consequuntur assumenda aspernatur ab, officiis impedit voluptates fuga excepturi, asperiores nemo omnis repellat iste. Nisi, dolor ullam.</p>
+                    </div>
                 </SpotlightBorder>
             </div>
             <div className='flex flex-row items-center justify-center mt-96 z-0'>

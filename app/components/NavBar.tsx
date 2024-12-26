@@ -4,7 +4,7 @@ import CryptoText from './CryptoText';
 
 
 const NavBar: React.FC = () => {
-  
+
 
   return (
     <header className="sticky top-4 py-4 px-4 z-50 text-white">

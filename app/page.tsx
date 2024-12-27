@@ -21,7 +21,7 @@ export default function Home() {
 
 
   return (
-    <main className={`text-white z-10 orbitron bg-blue-950 w-full font-orbitron ${orbitron.variable}`}>
+    <main className={`text-white z-10 orbitron bg-black w-full font-orbitron ${orbitron.variable}`}>
       <div className='max-w-[1500px] flex flex-col justify-center mx-auto'>
         <NavBar />
 

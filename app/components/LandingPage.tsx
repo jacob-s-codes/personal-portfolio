@@ -29,7 +29,7 @@ const LandingPage = () => {
                         </ul>
                     </div>
                     <div className='mt-14'>
-                        <ul className='max-w-xl text-2xl space-y-4'>
+                        <ul className='max-w-xl text-2xl space-y-4 '>
                             <li> - Fullstack developer</li>
                             <li> - Current high school student</li>
                             <li> - Focused on web development </li>
@@ -38,7 +38,7 @@ const LandingPage = () => {
                     </div>
 
                 </div>
-                <Image src={faceImage} priority={false} className='w-96 h-full rounded-3xl mr-28 hover:rotate-3 duration-200' width={500} height={500} alt='Image of me' />
+                <Image src={faceImage} priority={false} className='w-96 h-full border-white border-2 rounded-3xl mr-28 hover:rotate-3 duration-200' width={500} height={500} alt='Image of me' />
             </div>
 
             

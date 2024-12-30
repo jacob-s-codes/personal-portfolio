@@ -30,7 +30,7 @@ const MyProjects = () => {
                     </SpotlightBorder>
                 </div>
                 <div className='flex flex-row items-center justify-center mt-24 z-0'>
-                <SpotlightBorder className="h-[650px] w-96 duration-500  bg-[#050126] hover:scale-105 hover:shadow-2xl hover:shadow-white ease-in" spotlightColor="white">
+                <SpotlightBorder className="h-[650px] w-96 duration-500  bg-[#667a8a] hover:scale-105 hover:shadow-2xl hover:shadow-white ease-in-out" spotlightColor="white">
                         <div className='pl-8 pt-8'>
                             <h2 className='text-3xl'>School Projects</h2>
                         </div>
@@ -42,10 +42,10 @@ const MyProjects = () => {
                             <Image src={schoolimg} alt="image of mode to code" className='rounded-lg border-white border-2'></Image>
                         </div>
                         <div className='px-8 py-8 text-xl'>
-                            <p>Here are some projects that I worked on during high school for some of my classes. </p>
+                            <p>Here are some projects that I worked on during high school for some of my classes. This project was a lot of fun to work on and I enjoyed it.</p>
                         </div>
                         <div className='flex w-full justify-center'>
-                            <button className='border-white border-2 rounded-lg px-4 py-4 hover:bg-white hover:text-black duration-500 hover:cursor-pointer '>Learn more</button>
+                            <button className='border-white border-2 rounded-lg px-4 py-4 hover:bg-white hover:text-black duration-500 hover:cursor-pointer'>Learn more</button>
                         </div>
                     </SpotlightBorder>
                 </div>

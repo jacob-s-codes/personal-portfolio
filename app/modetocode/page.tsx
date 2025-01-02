@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar'
 
 const page = () => {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-blue-500 text-white'>
         <NavBar/>
     </div>
   )

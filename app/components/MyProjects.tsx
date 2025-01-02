@@ -31,7 +31,7 @@ const MyProjects = () => {
                     </SpotlightBorder>
                 </div>
                 <div className='flex flex-row items-center justify-center mt-24 z-0'>
-                <SpotlightBorder className="h-[650px] w-96 duration-500  bg-[#667a8a] hover:shadow-xl hover:shadow-white " spotlightColor="white">
+                <SpotlightBorder className="h-[650px] w-96 bg-[#667a8a] duration-500   hover:shadow-xl hover:shadow-white " spotlightColor="white">
                         <div className='pl-8 pt-8'>
                             <h2 className='text-3xl'>School Projects</h2>
                         </div>

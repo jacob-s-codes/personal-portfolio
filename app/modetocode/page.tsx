@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/HomePage/NavBar';
 import { Orbitron } from 'next/font/google';
 
 const orbitron = Orbitron({
@@ -10,7 +10,7 @@ const orbitron = Orbitron({
 
 const page = () => {
   return (
-    <div className={`text-[#F0F7F4] z-10 orbitron bg-[#32292F] w-full font-orbitron` }>
+    <div className={`max-w-[1800px]` }>
         <NavBar/>
     </div>
   )

@@ -1,8 +1,8 @@
 import React from 'react'
 import { SpotlightBorder } from './SpotlightBorder'
 import Image from 'next/image'
-import modetocode from '../assets/modetocodebg.png'
-import schoolimg from '../assets/ifbackground.jpeg'
+import modetocode from '../../assets/modetocodebg.png'
+import schoolimg from '../../assets/ifbackground.jpeg'
 import Link from 'next/link'
 
 const MyProjects = () => {

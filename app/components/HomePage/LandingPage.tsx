@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import faceImage from '../assets/facepic.webp'
+import faceImage from '../../assets/facepic.webp';
+
 
 
 const LandingPage = () => {
@@ -8,7 +9,7 @@ const LandingPage = () => {
         <div>
             <div className=' flex flex-row items-center justify-between mt-40'>
                 <div className='flex flex-col items-start ml-28'>
-                    <h1 className='text-8xl  font-bold'>Jacob Shaul</h1>
+                    <h1 className='text-8xl font-bold'>Jacob Shaul</h1>
                     <div className='mt-8'>
                         <ul className='flex flex-row items-center gap-x-24'>
                             <a href={"https://github.com/jacob-s-codes"} target='_blank'><li className='hover:text-[#99E1D9] hover:scale-110 text-white hover:cursor-pointer duration-250'>

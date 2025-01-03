@@ -5,7 +5,7 @@ import "./globals.css";
 
 
 
-const orbitron_init = Orbitron({
+const orbitron = Orbitron({
   subsets: ["latin"],
   weight: ['400'],
   variable: "--font-orbitron",
@@ -33,9 +33,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={orbitron_init.variable} suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={` antialiased text-[#F0F7F4] z-10 orbitron bg-[#32292F] w-full font-orbitron ${orbitron.variable} max-w-[1800px]`}
       >
         {children}
       </body>

@@ -15,7 +15,7 @@ export default function Home() {
 
 
   return (
-    <main className={` z-8 w-full flex flex-col justify-center mx-auto`}>
+    <main className={` z-10 w-full flex flex-col justify-center mx-auto`}>
       <div className=' '>
         <NavBar />
 

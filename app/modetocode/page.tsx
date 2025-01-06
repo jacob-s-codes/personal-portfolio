@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/HomePage/NavBar';
 import { Orbitron } from 'next/font/google';
+import Landpage from '../components/ModetoCode/Landpage';
 
 const orbitron = Orbitron({
   weight: '400',
@@ -12,6 +13,7 @@ const page = () => {
   return (
     <div className={`max-w-[1800px]` }>
         <NavBar/>
+        <Landpage/>
     </div>
   )
 }

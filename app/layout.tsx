@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={` antialiased text-[#F0F7F4] z-10 orbitron bg-[#32292F] w-full font-orbitron ${orbitron.variable} max-w-[1800px]`}
+        className={` antialiased text-[#F0F7F4] z-10 orbitron bg-[#32292F] w-full font-orbitron ${orbitron.variable} max-w-[1800px] mx-auto`}
       >
         {children}
       </body>

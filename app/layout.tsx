@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="w-full bg-[#32292F]">
       <body
         className={` antialiased text-[#F0F7F4] z-10 orbitron bg-[#32292F] w-full font-orbitron ${orbitron.variable} max-w-[1800px] mx-auto`}
       >

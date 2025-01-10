@@ -1,6 +1,7 @@
 'use client'
 import React from 'react';
 import CryptoText from './CryptoText';
+import Link from 'next/link';
 
 
 const NavBar: React.FC = () => {
@@ -13,11 +14,11 @@ const NavBar: React.FC = () => {
         <ul className="flex flex-row w-full items-center justify-between text-3xl">
           <div className="flex justify-end">
             <li className="ml-24">
-              <CryptoText text="Jacob Shaul" className="crypto-text hover:text-[#99E1D9]" />
+              <Link href="/"><CryptoText text="Jacob Shaul" className="crypto-text hover:text-[#99E1D9]" /></Link>
             </li>
           </div>
           <div className="hidden lg:flex lg:visible gap-28 items-center ">
-            <CryptoText text="About" className="hover:text-[#99E1D9]" />
+            <Link href="#projects"><CryptoText text="About" className="hover:text-[#99E1D9]" /></Link>
             <CryptoText text="Projects" className="hover:text-[#99E1D9] mr-24" />
           </div>
           <div className="visible lg:hidden hover:cursor-pointer text-6xl mr-24 mb-4">

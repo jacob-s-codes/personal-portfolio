@@ -5,7 +5,7 @@ import modetocode from '../assets/modetocodebg.png'
 
 const MyProjects = () => {
     return (
-        <div className='flex flex-row items-center justify-center gap-36'>
+        <div className='flex flex-row items-center justify-center gap-36' id="projects">
             <div className='flex flex-row items-center justify-center mt-96 z-0'>
                 <SpotlightBorder className="h-[600px] w-96 hover:scale-[105%] duration-1000 ease-in-out bg-black" spotlightColor="white">
                     <div className='pl-8 pt-8'>

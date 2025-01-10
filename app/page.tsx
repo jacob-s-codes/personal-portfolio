@@ -21,7 +21,7 @@ export default function Home() {
 
         <LandingPage />
         <TechStack />
-        <MyProjects />
+        <MyProjects/>
       </div>
 
 

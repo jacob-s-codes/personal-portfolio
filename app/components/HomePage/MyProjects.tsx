@@ -46,7 +46,7 @@ const MyProjects = () => {
                             <p>Here are some projects that I worked on during high school for some of my classes. This project was a lot of fun to work on and I enjoyed it.</p>
                         </div>
                         <div className='flex w-full justify-center'>
-                            <Link href="/schoolprojects"><button className='border-white border-2 rounded-lg px-4 py-4 hover:bg-white hover:text-black duration-500 hover:cursor-pointer'>Learn more</button></Link>
+                            <Link href="/schoolprojects" target='_blank'><button className='border-white border-2 rounded-lg px-4 py-4 hover:bg-white hover:text-black duration-500 hover:cursor-pointer'>Learn more</button></Link>
                         </div>
                     </SpotlightBorder>
                 </div>

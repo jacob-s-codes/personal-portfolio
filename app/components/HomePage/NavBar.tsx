@@ -18,7 +18,7 @@ const NavBar: React.FC = () => {
             </li>
           </div>
           <div className="hidden lg:flex lg:visible gap-28 items-center ">
-            <Link href="#projects"><CryptoText text="About" className="hover:text-[#99E1D9]" /></Link>
+            <Link href="#projects" scroll={false}><CryptoText text="About" className="hover:text-[#99E1D9]" /></Link>
             <CryptoText text="Projects" className="hover:text-[#99E1D9] mr-24" />
           </div>
           <div className="visible lg:hidden hover:cursor-pointer text-6xl mr-24 mb-4">

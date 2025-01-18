@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const MyProjects = () => {
     return (
-        <div>
+        <div id="projects">
             <h3 className='flex justify-center text-5xl text-center mb-0 mt-96 font-bold'>Here are some of my projects:</h3>
             <div className='flex flex-row items-center justify-center gap-36'>
                 <div className='flex flex-row items-center justify-center mt-24 z-0'>

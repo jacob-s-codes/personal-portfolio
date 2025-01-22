@@ -3,7 +3,8 @@ import { SpotlightBorder } from './SpotlightBorder'
 import Image from 'next/image'
 import modetocode from '../../assets/modetocodebg.png'
 import schoolimg from '../../assets/ifbackground.jpeg'
-import Link from 'next/link'
+import Link from 'next/link';
+import Coolbutton from '../HomePage/Coolbutton';
 
 const MyProjects = () => {
     return (
@@ -26,7 +27,7 @@ const MyProjects = () => {
                             <p>This was a project that helps teach students how to code and other basic software technologies.</p>
                         </div>
                         <div className='flex w-full justify-center'>
-                        <Link href="/modetocode" target='_blank'><button className='border-white border-2 rounded-lg px-4 py-4 hover:bg-white hover:text-black duration-500 hover:cursor-pointer'>Learn more</button></Link>
+                        <Link href="/modetocode" target='_blank'><Coolbutton/></Link>
                         </div>
                     </SpotlightBorder>
                 </div>
@@ -46,7 +47,7 @@ const MyProjects = () => {
                             <p>Here are some projects that I worked on during high school for some of my classes. This project was a lot of fun to work on and I enjoyed it.</p>
                         </div>
                         <div className='flex w-full justify-center'>
-                            <Link href="/schoolprojects" target='_blank'><button className='border-white border-2 rounded-lg px-4 py-4 hover:bg-white hover:text-black duration-500 hover:cursor-pointer'>Learn more</button></Link>
+                            <Link href="/schoolprojects" target='_blank'><Coolbutton/></Link>
                         </div>
                     </SpotlightBorder>
                 </div>

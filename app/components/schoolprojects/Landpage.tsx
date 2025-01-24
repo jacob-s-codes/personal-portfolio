@@ -5,7 +5,7 @@ import englishImage from '../../assets/ifbackground.jpeg';
 const Landpage = () => {
   return (
     <div className='text-white'>
-      <h1 className='text-9xl text-center flex flex-col justify-center text-[#32292F] py-56 bg-[#99E1D9] h-screen'>School Projects</h1>
+      <h1 className='text-9xl text-center flex flex-col justify-center text-[#99E1D9] my-56'>School Projects</h1>
 
 
       <div className='flex flex-row items-center justify-center mt-56 gap-x-12'>

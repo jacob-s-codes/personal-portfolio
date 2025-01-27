@@ -1,3 +1,8 @@
 .landpagebg {
-    background-image: url('../assets/Possiblebg.jpg');
+    background-image: url('../assets/pexels-shotbysylvesterabigail-27686060.jpg');
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(119, 117, 117);
 }

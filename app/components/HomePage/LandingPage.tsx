@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import faceImage from '../../assets/facepic.webp';
+import homepagestyles from '../../styles/HomePage.module.css'
 
 
 
 const LandingPage = () => {
     return (
         <div>
-            <div className=' flex flex-row items-center justify-between mt-40'>
+            <div className={`flex flex-row items-center justify-between pt-40 ${homepagestyles.landpagebg} w-full`}>
                 <div className='flex flex-col items-start ml-28'>
                     <h1 className='text-8xl font-bold'>Jacob Shaul</h1>
                     <div className='mt-8'>

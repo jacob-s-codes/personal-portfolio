@@ -15,8 +15,8 @@ export default function Home() {
 
 
   return (
-    <main className={` z-10 w-full flex flex-col justify-center mx-auto`}>
-      <div className=' '>
+    <main className={` z-10 w-full flex flex-col justify-center `}>
+      <div className=' w-full'>
         <NavBar />
 
         <LandingPage />

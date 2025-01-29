@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const NavBar: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 py-4 px-4 z-50 text-white">
+    <header className="fixed top-0 left-0 right-0 py-4 px-4 z-50 text-white max-w-[1800px] mx-auto">
       <div className="border-2 border-white hover:border-[#99E1D9] rounded-xl py-4 w-full relative backdrop-blur-sm z-50">
         <ul className="flex flex-row w-full items-center justify-between text-3xl">
           <div className="flex justify-end">

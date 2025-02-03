@@ -16,7 +16,7 @@ const Landpage = () => {
                 <div className='max-w-2xl ml-28'>
                     <div className='flex flex-row items-center justify-start mb-12 w-full'>
                         <hr className='w-[50%]'/>
-                        <h3 className='text-3xl font-bold pl-4'>What is Mode to Code?</h3>
+                        <h3 className='text-3xl font-bold pl-4 text-center'>What is Mode to Code?</h3>
                         <hr className='w-[50%]'/>
                     </div>
                     <h4 className=' text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reprehenderit deleniti aliquid nihil rerum minima animi, iste porro magni quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum sed suscipit, omnis veritatis dicta dolores laudantium voluptatum natus sit enim ex atque, autem iste et unde nostrum architecto obcaecati.</h4>

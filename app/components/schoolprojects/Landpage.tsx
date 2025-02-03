@@ -10,7 +10,11 @@ const Landpage = () => {
 
       <div className='flex flex-row items-center justify-center mt-56 gap-x-12'>
         <div className='flex flex-col max-w-2xl gap-y-12 ml-24'>
-          <h2 className='text-5xl'>English Final Project</h2>
+          <div className='flex flex-row items-center'>
+            <hr className='w-[50%]'/>
+            <h2 className='text-5xl text-center'>English Final Project</h2>
+            <hr className='w-[50%]'/>
+          </div>
           <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus et consequatur rem maxime, reiciendis quisquam ab libero earum excepturi aspernatur, sit accusantium eos eveniet amet enim quasi molestias quas alias!</p>
         </div>
         <div className='w-full mr-24'>

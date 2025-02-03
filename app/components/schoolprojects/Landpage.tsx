@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import englishImage from '../../assets/ifbackground.jpeg';
+import Link from 'next/link';
 
 const Landpage = () => {
   return (
@@ -18,7 +19,7 @@ const Landpage = () => {
           <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus et consequatur rem maxime, reiciendis quisquam ab libero earum excepturi aspernatur, sit accusantium eos eveniet amet enim quasi molestias quas alias!</p>
         </div>
         <div className='w-full mr-24'>
-          <Image src={englishImage} width={500} height={500} className='w-full rounded-md shadow-xl shadow-white' alt="image of english picture"></Image>
+          <Link href={"https://jacob-s-codes.github.io/Intro-to-feminism-final-project/"} target='_blank'><Image src={englishImage} width={500} height={500} className='w-full rounded-md shadow-xl shadow-white' alt="image of english picture"></Image></Link>
         </div>
       </div>
 

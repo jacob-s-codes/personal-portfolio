@@ -6,7 +6,10 @@ import Link from 'next/link';
 const Landpage = () => {
   return (
     <div className='text-white'>
-      <h1 className='text-9xl text-center flex flex-col justify-center text-[#99E1D9] my-56'>School Projects</h1>
+      <div className='py-56 bg-[#99E1D9]'>
+        <h1 className='text-9xl text-center flex flex-col justify-center  '>School Projects</h1>
+        <h2 className='text-center text-5xl pt-8'>Here are some projects that I've worked on for school.</h2>
+      </div>
 
 
       <div className='flex flex-row items-center justify-center mt-56 gap-x-12'>

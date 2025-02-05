@@ -31,7 +31,11 @@ const Landpage = () => {
           <Image src={englishImage} width={500} height={500} className='w-full rounded-md shadow-xl shadow-white' alt="image of english picture"></Image>
         </div>
         <div className='flex flex-col max-w-2xl gap-y-12 mr-24 text-right'>
-          <h2 className='text-5xl'>English that lines up</h2>
+          <div className='flex flex-row items-center w-full'>
+            <hr className='w-[50%]'/>
+            <h2 className='text-5xl text-center'>Biology Final Project</h2>
+            <hr className='w-[50%]'/>
+          </div>
           <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus et consequatur rem maxime, reiciendis quisquam ab libero earum excepturi aspernatur, sit accusantium eos eveniet amet enim quasi molestias quas alias!</p>
         </div>
 

@@ -25,6 +25,10 @@ const Landpage = () => {
 
             </div>
 
+            <div className='text-center text-5xl pb-24'>
+                <h2>Here's some facts:</h2>
+            </div>
+
 
 
         </div>
